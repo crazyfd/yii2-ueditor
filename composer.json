@@ -1,7 +1,7 @@
 {
-    "name": "crazyfd/yii2-qiniu",
-    "description": "yii2上传到七牛云存储",
-	"keywords": ["yii", "qiniu", "upload"],
+    "name": "crazyfd/yii2-ueditor",
+    "description": "yii2使用百度编辑器上传",
+	"keywords": ["yii", "ueditor", "upload"],
 	"type": "yii2-extension",
     "license": "MIT",
     "authors": [
@@ -15,6 +15,6 @@
         "yiisoft/yii2": "*"
     },
 	"autoload": {
-		"psr-4": { "crazyfd\\qiniu\\": "" }
+		"psr-4": { "crazyfd\\ueditor\\": "" }
 	}
 }

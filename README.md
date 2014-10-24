@@ -28,5 +28,5 @@ Usage
 
 ```php
 <?php 
-<?= $form->field($model, 'content')->widget(FileInput::className(),[]) ?>
+<?= $form->field($model, 'content')->widget(Ueditor::className(),[]) ?>
 ```

@@ -29,4 +29,18 @@ Usage
 ```php
 <?php 
 <?= $form->field($model, 'content')->widget(Ueditor::className(),[]) ?>
+控制器中添加
+public function actions()
+{
+	return [
+		
+		'ueditor' => [
+			'class' => 'crazyfd\ueditor\Upload',
+			'config'=>[
+				'uploadDir'=>date('Y/m/d')
+			]
+
+		],
+	];
+}
 ```
